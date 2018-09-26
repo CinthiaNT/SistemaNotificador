@@ -30,5 +30,5 @@ MATERIAL
 
 *1 Protoboard
 
-IMAGEN
+
 ![Imagen] (https://github.com/CinthiaNT/SistemaNotificador/blob/master/2.jpg)
