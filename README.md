@@ -1,4 +1,4 @@
-PRACTICA #2 25 de Septiembre del 2018
+﻿PRACTICA #2 25 de Septiembre del 2018
 
 
 "Sistema Notificador de Llegada de Individuos"
@@ -31,4 +31,4 @@ MATERIAL
 *1 Protoboard
 
 IMAGEN
-![Imagen 1] (https://github.com/CinthiaNT/SistemaNotificador/blob/master/2.jpg)
+![Imagen] (https://github.com/CinthiaNT/SistemaNotificador/blob/master/2.jpg)
