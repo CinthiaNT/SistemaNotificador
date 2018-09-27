@@ -50,11 +50,6 @@ void loop() {
     delay(tempo / 2); 
   }
   valor_Sensor = digitalRead(pin_Sensor);
-    // Condicion que verifica si el boton para desactivar la alarma este presionado
-    // De ser asi, el valor de sensor ccambiara a HIGH lo que nos hara romper con el ciclo
-    // Aun cuando el iman siga en nuestro sensor magnetico. De lo contrario el ciclo se rompera 
-    // siempre y cuando el iman este lejos. 
-   
   }
   // Al salir del ciclo while ponemos nuevamente la placa de arduino en modo sleep para que consuma el minimo
   // de energia
@@ -70,6 +65,10 @@ void valorSensor() {
 
 // Metodo para generar la serie de tonos para alarma 
 void playTone(int tone, int duration) {
+    // Condicion que verifica si el boton para desactivar la alarma este presionado
+    // De ser asi, el valor de sensor ccambiara a HIGH lo que nos hara romper con el ciclo
+    // Aun cuando el iman siga en nuestro sensor magnetico. De lo contrario el ciclo se rompera 
+    // siempre y cuando el iman este lejos. 
   if (digitalRead(pin_Boton) == LOW) {
     valor_Sensor = HIGH;
     attachInterrupt(0, valorSensor, FALLING);
