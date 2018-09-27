@@ -61,3 +61,6 @@ MATERIAL
 *Jumpers
 ![Imagen](https://github.com/CinthiaNT/SistemaNotificador/blob/master/2.jpg)
 ![Imagen](https://github.com/CinthiaNT/SistemaNotificador/blob/master/1.jpg)
+![Imagen](https://github.com/CinthiaNT/SistemaNotificador/blob/master/ACTUAL.jpg)
+![Imagen](https://github.com/CinthiaNT/SistemaNotificador/blob/master/ACTUAL2.jpg)
+![Imagen](https://github.com/CinthiaNT/SistemaNotificador/blob/master/ACTUAL3.jpg)
